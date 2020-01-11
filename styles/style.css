@@ -72,3 +72,29 @@ footer {
 .copyright {
   color: #B2B2B2;
 }
+
+@media only screen and (min-width: 460px) {
+  body {
+    padding: 20px 30%;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  .sub-content {
+    font-size: 15px;
+  }
+
+  .flex-form > input {
+    width: 60%;
+  }
+
+  .flex-form > button {
+    width: 30%;
+  }
+
+  .copyright {
+    font-size: 10px;
+  }
+}
